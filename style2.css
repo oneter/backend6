@@ -1,0 +1,73 @@
+body {
+    color: white;
+}
+ 
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #3ecec4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #3ecec4;
+}
+ 
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 1rem;
+}
+.p{
+    font-size: 20px;
+}
+ 
+.error {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center
+}
+ 
+input[type="submit"] {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #8fd3f4;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+ 
+.alert-danger {
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+    text-align: center
+}
+ 
+.alert-success {
+    background-color: #fff;
+    border-color: #fff;
+   color: black;
+    text-align: center
+}
+
+.success {
+  background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center
+}
